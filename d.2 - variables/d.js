@@ -36,6 +36,15 @@ console.log(newVariable);
 Numbers, a String, an Object, a Fuction, etc */
 
 
+/* Now I will add my name and the date with variables */
+
+var myName = 'Justin Hoffman';
+console.log(myName);
+
+var theMonth = 'March';
+var theYear = 2020;
+
+console.log(theMonth + theYear);
 
 
 
