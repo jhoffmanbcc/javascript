@@ -3,12 +3,9 @@
 
 
 
-console.log("hey there.. how are you?");
+console.log('hey there.. we meet again ;) ');
+alert('wait.. and do not forget to celebrate');
 
-alert('This is popping off!!');
-
-// a single line comment has two slashes
-/* A double line comment has a slash and asterisk */
 
 
 /* Now we will create a variable */
