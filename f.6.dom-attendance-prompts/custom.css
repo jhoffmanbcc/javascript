@@ -1,0 +1,24 @@
+
+
+  .jumbotron {
+    
+ /* Now I will update this to receive a random image from unsplash
+ https://awik.io/generate-random-images-unsplash-without-using-api/
+ 
+ */
+
+    background-image: url("https://source.unsplash.com/random/?space");
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 250px;
+
+  }
+
+
+  .mosaic {
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 105px;
+  }
+
+
+  

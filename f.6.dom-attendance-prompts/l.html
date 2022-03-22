@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="custom.css">
+     
+     <!-- Google Fonts --> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+
+    <title> Space Party </title>
+  </head>
+  <body>
+
+
+    <!-- To start I updated my grids on my page .. check out bootstrap grids
+        https://getbootstrap.com/docs/4.0/layout/grid/ -->
+
+  
+    <div class="container">
+    
+       <div class="jumbotron" >
+
+            <hr class="my-4">
+       </div>
+                <br>
+
+
+       <div class="row">
+
+                <div class="col-lg-12">
+
+                  <h2 class="mosaic">Welcome to my Space Party </h2>
+                  <br>
+                  <br>
+                  <br>
+
+                </div>
+
+
+     <!-- Then I updated the buttons to fill the entire column 100%  
+         https://getbootstrap.com/docs/4.0/utilities/sizing/  -->
+
+
+                <div class="col-6 col-lg-2 ">
+
+                  <button class="btn btn-outline-dark w-100" onclick="newContact()"> Click Me </button>
+               
+                </div>
+
+
+                <div class="col-6 col-lg-2 ">
+                  <button class="btn btn-outline-danger w-100" onClick="reset()" > Reset </button>
+                </div>
+
+                <br>
+                <br>
+                <br> 
+                <div class="col-lg-12">
+                <div id="attendeeResult"></div> 
+                <br> <br>
+                </div>
+    
+    
+    
+            </div>
+      </div>
+
+
+    <script src="l.js">  </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>

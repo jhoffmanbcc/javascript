@@ -1,0 +1,23 @@
+
+
+/*
+  
+  .flex-box-container-1{
+
+    display:flex;
+    border: 1px; 
+    padding: 10px;   
+  }
+
+  */
+  
+  .jumbotron {
+    background-image: url("img/lazer-party.jpeg");
+
+    /* I received my image from unsplash.. here: https://unsplash.com/photos/wI2Hafqr_f4 */
+
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 180px;
+
+  }

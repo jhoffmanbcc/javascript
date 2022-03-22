@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- we will go to bootstrap and get a basic starter template
+    https://getbootstrap.com/docs/5.1/getting-started/introduction/  -->
+
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="custom.css">
+
+    <title>Static Template</title>
+  </head>
+  <body>
+
+   
+    <!-- Create a bootstrap container  https://getbootstrap.com/docs/4.0/layout/overview/ -->
+    <!-- py-5 is padding for both top and bottom in bootstrap: https://getbootstrap.com/docs/4.0/utilities/spacing/-->
+
+
+    <div class="container">
+
+      
+       <div class="jumbotron" >
+            <hr class="my-4">
+             <!-- Lets check out the custom CSS for our image. -->  
+       </div>
+        
+        <br>
+
+                <h2>Welcome to my Lazer Party </h2>
+
+                <br>
+
+                <!-- We will create some basic buttons with "onclick functions" -->
+
+                <button class="btn btn-primary"  onclick="newContact()"> Click Me </button>
+                <button class="btn btn-danger"> Reset </button>
+
+                <br>
+                <br>
+                <br> 
+            
+                <!-- Here we will print out the result -->
+
+                <div id="attendeeResult"></div> 
+          
+                <br> <br>
+    </div>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="l.js">  </script>
+  
+  </body>
+</html>
