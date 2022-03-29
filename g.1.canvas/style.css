@@ -1,0 +1,28 @@
+
+
+
+/* we are going to make the canvas as big as our entire screen 
+and it will create scroll bars.. so we are going to add some settings
+to the body so that we don't see those ;) */
+
+body {
+
+    overflow: hidden;
+}
+
+
+/* here is the styling for our canvas id tag */
+
+#creativeCoding  {
+    position: absolute;
+    border: 2px solid black;
+    background: blue;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* now lets go and setup our javascript page */
+

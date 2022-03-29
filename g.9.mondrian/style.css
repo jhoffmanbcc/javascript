@@ -1,0 +1,26 @@
+
+
+
+/* we are going to make the canvas as big as our entire screen 
+and it will create scroll bars.. so i am going to add some settings
+to the body so that we don't see those ;) */
+
+body {
+
+    overflow: hidden;
+}
+
+
+/* here is the styling for our canvas id tag */
+
+#creativeCoding  {
+    position: absolute;
+    background: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
